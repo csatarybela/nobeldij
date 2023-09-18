@@ -11,7 +11,7 @@ public class Feladatok {
 
     public static void f2() throws IOException {
         String line;
-        FileReader fr = new FileReader("rvosi_nobeldijak.txt");
+        FileReader fr = new FileReader("orvosi_nobeldijak.txt");
         BufferedReader br = new BufferedReader(fr);
         br.readLine();
         while ((line = br.readLine()) != null) {
